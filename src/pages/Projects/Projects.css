@@ -1,0 +1,145 @@
+.style-title {
+  color: #090047;
+}
+
+.style-p {
+  font-size: 12px;
+  color: #b2b2b7;
+}
+
+.style-p-2 {
+  font-size: 12px;
+  color: #b2b2b7;
+}
+
+.avatar-container {
+  width: 100px;
+  box-sizing: content-box;
+}
+
+.avatar-container-item {
+  width: 40px;
+  height: 40px;
+  border: 3px solid white;
+  margin-right: -8px;
+}
+
+.add-icon {
+  color: #d5d4e1;
+  width: 35px;
+  height: 35px;
+  z-index: -1;
+}
+
+.file-btn {
+  color: #696871;
+  border: 2px solid #ebeaef;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.icon-in-btn {
+  margin-right: 5px;
+}
+
+.container-list-icon {
+  border: 2px solid #ebeaef;
+  padding: 1px 2px;
+  border-radius: 10px;
+}
+
+.list-icon {
+  color: #696871;
+  background-color: rgb(249, 249, 249);
+  border-radius: 8px;
+  box-sizing: content-box;
+}
+
+.container-list-icon .list-icon.active,
+.container-list-icon .show > .list-icon {
+  background-color: rgb(153, 121, 175) !important;
+  color: #ffffff !important;
+}
+
+.container-calender-btn {
+  background-color: #f7f7f7;
+  border-radius: 8px;
+}
+
+.Calendar-btn {
+  color: #89898c;
+  background-color: #f7f7f7;
+  width: 150px;
+  border-radius: 8px;
+}
+
+.btn-check:checked + .Calendar-btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .Calendar-btn:active {
+  color: #090047 !important;
+  background-color: #ffffff !important;
+  padding: 6px;
+  border: none;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.icon-calendar-btn {
+  color: #89898c;
+}
+
+.btn:first-child:hover,
+:not(.btn-check) + .btn:hover {
+  color: var(--bs-btn-hover-color);
+  background-color: #e9e9ec;
+}
+
+.form-select {
+  border: none;
+  width: 130px;
+  color: #170b64;
+  font-size: 14px;
+}
+
+.gray-color {
+  color: #908f8f;
+}
+.list-time {
+  list-style: none;
+  position: relative;
+}
+.time-calendar {
+  color: #b1b0b5;
+  font-size: 12px;
+  width: 20px;
+}
+
+.line-time {
+  color: #e6e6ea;
+  position: absolute;
+  bottom: 6px;
+}
+
+.project-drive {
+  color: #150482;
+}
+
+.card-style {
+  border: 1px solid #e9e9ec;
+  border-radius: 10px;
+  width: 220px;
+}
+
+.card-title {
+  color: #150482;
+}
+
+.img-project {
+  border-radius: 12px;
+}
+
+.edit-text {
+  font-size: 12px;
+  color: #757575;
+}

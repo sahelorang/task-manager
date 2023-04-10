@@ -1,0 +1,49 @@
+.name-task {
+  color: #110d3c;
+}
+
+.Category {
+  font-size: 10px;
+  border-radius: 5px;
+}
+
+.Design-Category {
+  color: #b03924;
+  background-color: #feecc8;
+}
+
+.Branding-category {
+  color: #aba2c3;
+  background-color: #b9f4fa;
+}
+
+.Desktop-Category {
+  color: #564779;
+  background-color: #deeeff;
+}
+
+.UX-Category {
+  color: #9f6ba3;
+  background-color: #fee3ff;
+}
+
+.task-bg {
+  background-color: white;
+  border-radius: 9px;
+  border: #dcdce2 1px solid;
+}
+
+.icon-task-color {
+  color: #8e8ca5;
+}
+
+.btn-task {
+  color: #5b5a61;
+  background-color: #e5e4e6;
+  border: #dcdce2 1px solid;
+  font-size: 13px;
+}
+.font-footer-task {
+  color: #8e8ca5;
+  font-size: 14px;
+}

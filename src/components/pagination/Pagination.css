@@ -1,0 +1,42 @@
+ul.breadcrumb {
+  padding: 16px 0;
+  list-style: none;
+  display: inline;
+}
+
+ul.breadcrumb li {
+  display: inline;
+}
+
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: #a39fb2;
+  content: "/\00a0";
+}
+
+.pag-link {
+  color: #767384;
+}
+
+.pag-link:hover {
+  text-decoration: none;
+  color: #a39fb2;
+}
+
+li:active .pag-active {
+  color: #767384;
+}
+
+.icon-border {
+  color: #9490a8;
+  margin: 5px;
+}
+
+.border {
+  border: 1px solid #9490a8;
+  border-radius: 50%;
+}
+.active > .pag-link,
+.pag-link.active {
+  color: #aca8bf;
+}

@@ -1,0 +1,21 @@
+.blue-gradient {
+  background: #0575e6;
+  background: -webkit-linear-gradient(to left, #021b79, #1f72c5);
+  background: linear-gradient(to left, #021b79, #1f72c5);
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+.glass {
+  border: 1px solid #e3e4e5;
+  border-radius: 40px;
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12.6px);
+  -webkit-backdrop-filter: blur(12.6px);
+}
+.bg-w {
+  background: #ffffff;
+  border-top-right-radius: 44px;
+  border-bottom-right-radius: 44px;
+}

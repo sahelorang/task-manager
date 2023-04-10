@@ -1,0 +1,75 @@
+.logo {
+  width: 100px;
+}
+
+.title-login {
+  color: #101010;
+}
+
+.style-container {
+  border: 1px solid #e3e4e5;
+}
+
+.border-r-40px {
+  border-radius: 40px;
+}
+
+.curve-style {
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  background: #ffffff;
+}
+
+.height-100 {
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.bg-bl {
+  background: #1f72c5;
+  border-top-left-radius: 44px;
+  border-bottom-left-radius: 44px;
+  border-top-right-radius: 0;
+}
+
+.errorUser {
+  font-size: 12px;
+  color: red;
+}
+
+.shadow-bg {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+@keyframes invalidAnimation {
+  0% {
+    font-size: 10px;
+  }
+  100% {
+    font-size: 14px;
+  }
+}
+@media (max-width: 992px) {
+  .bg-bl {
+    border-radius: 40px !important;
+    background: #ffffff;
+    /* border-top: 1px solid #e3e4e5; */
+  }
+  .style-container {
+    border: none;
+  }
+  .curve-style {
+    border-radius: 40px;
+    background: #ffffff;
+  }
+  .height-100 {
+    overflow-y: auto;
+  }
+}
+
+@media (max-with: 320px) {
+  .title-login {
+    font-size: 10px !important;
+  }
+}

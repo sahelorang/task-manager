@@ -1,0 +1,56 @@
+.status {
+  color: #1c185c;
+}
+
+.number {
+  color: #1c185c;
+  background-color: #e1e2ef;
+  border-radius: 7px;
+  padding: 1px 8px 3px 8px;
+}
+
+.more-icon {
+  color: #94929f;
+}
+
+.card {
+  width: 320px;
+}
+
+.card-body-bg {
+  background-color: #f7f7f7;
+}
+
+.btn-add {
+  color: #75747d;
+  background-color: #efeef1;
+  border: #dcdce2 1px solid;
+  border-radius: 8px;
+}
+
+.height-100 {
+  height: 100vh;
+  overflow-y: auto;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #c7c7c7 #f3f1f1;
+}
+
+/* Chrome, Edge, and Safari */
+.card::-webkit-scrollbar {
+  width: 11px;
+}
+
+.card::-webkit-scrollbar-track {
+  background: #f3f1f1;
+}
+
+.card::-webkit-scrollbar-thumb {
+  background-color: #c7c7c7;
+  border-radius: 5px;
+  border: 1px double #dcdbdb;
+}

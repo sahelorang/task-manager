@@ -1,0 +1,18 @@
+.style-nav {
+  color: #a9a8b2;
+  border-radius: 10px;
+}
+
+.navbar-nav .style-nav.active,
+.navbar-nav .show > .style-nav {
+  background-color: #eae8ff;
+  border-radius: 10px;
+  color: #090047 !important;
+}
+
+.style-nav:focus,
+.style-nav:hover {
+  background-color: #eae8ff;
+  border-radius: 10px;
+  color: #090047 !important;
+}

@@ -1,0 +1,22 @@
+.btn-add {
+  color: #75747d;
+  background-color: #efeef1;
+  border: #dcdce2 1px solid;
+}
+
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  color: #efeef1;
+  background-color: #75747d;
+  border-color: var(--bs-btn-active-border-color);
+}
+
+.btn:first-child:hover,
+:not(.btn-check) + .btn:hover {
+  color: #efeef1;
+  background-color: #a1a0a8;
+  border-color: var(--bs-btn-hover-border-color);
+}
